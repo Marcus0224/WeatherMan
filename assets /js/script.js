@@ -97,7 +97,7 @@ function initPage() {
             });
     }
 
-    // Get history from local storage if any
+    // Get history from local storage
     searchEl.addEventListener("click", function () {
         var searchTerm = cityEl.value;
         getWeather(searchTerm);
@@ -106,7 +106,7 @@ function initPage() {
         renderSearchHistory();
     })
 
-    // Clear History button
+    // Clear History btn
     clearEl.addEventListener("click", function () {
         localStorage.clear();
         searchHistory = [];
