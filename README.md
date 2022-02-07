@@ -15,7 +15,7 @@ Search for city and get a 5 day forecast
 https://marcus0224.github.io/WeatherMan-/
 
 
-Dash.png
+![](Dash.png)
 
 ### ©️2022 WeatherMan Enterprise
 
